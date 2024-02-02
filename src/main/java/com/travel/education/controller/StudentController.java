@@ -41,6 +41,7 @@ public class StudentController {
     public Student update(@RequestBody Student student) {
         studentService.update(student);
         return student;
+
     }
 
 }
